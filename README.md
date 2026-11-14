@@ -1,4 +1,4 @@
-# project-OM3
+# tp-algo-binome
 Faciliter la tâche
 salut 
 
