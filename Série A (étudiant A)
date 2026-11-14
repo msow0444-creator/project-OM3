@@ -88,6 +88,7 @@ début
 fin
 
 
+
 Exercice 5 :
 
 Algorithme   Equatin du seconde degré
@@ -147,4 +148,5 @@ afficher ("Null")
 
 finsi
 
-fin
+fin 
+
