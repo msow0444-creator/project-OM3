@@ -1,0 +1,152 @@
+Exercice 1 : 
+
+Algorithme calcule du TTC
+
+variables 
+  prix HT = reel
+  montantTVA = reel
+  prix TTC = reel
+
+Début
+
+
+     Ecrire ("veuillez donne le Prix Hors Taxe : ")
+    lire (prix HT)
+
+
+    Ecrire ("Veuillez donner le Montant de la TVA : ")
+    lire (Montant de la TVA)
+  
+     prixTTC ← prixHT × (1 + montantTVA / 100)
+
+    Écrire("Le prix TTC est de : ", prixTTC)
+fin
+
+
+Exercice 4 :
+
+Algorithme équation du premier degré
+a : reel
+b : reel
+x : reel
+
+
+début
+    
+    Ecrire ("donner a : ")
+    lire (a)
+
+    Ecrire ("donner b : ")
+    lire (b)
+   
+    si  a > 0 Alors
+    X  = -b / a 
+    Ecrire ("x = ", x)
+
+    sinon 
+    si b = 0 
+        Ecrire ("Infinité de solutions")
+    sinon
+        Ecrire ("aucune solutions")
+
+        finsi
+      finsi
+ 
+
+Fin
+
+
+Exercice 10 :
+
+Algorithme  Mention d'un étudiant
+
+n : reel 
+
+début 
+   
+    Ecrire ("la moyenne sur 20 : n ")
+    lire (n)
+ 
+    si n < 10 
+    afficher ("refusé")
+
+    sinonsi n >= 10 ET n < 12 Alors
+    afficher ("Passable")
+
+    sinonsi 12 <= n < 14 Alors
+    afficher ("assez bien")
+
+    sinonsi 14 <= n < 16 Alors
+    afficher ("bien")
+
+    sinon  n >= 16 
+    afficher ("très bien")
+
+    finsi 
+   finsi
+
+fin
+
+
+
+Exercice 5 :
+
+Algorithme   Equatin du seconde degré
+
+  Variables
+a : Reel 
+b : Reel 
+c : REEL
+  delta : Reel
+x , x1 , x2 : Reel
+ début
+
+   Ecrire ("Entrer un nombre pourna")
+   lire (a)
+
+   Ecrire ("Entrer un nombre pour b")
+   lire (b)
+
+   Ecrire ("Entrer un nombre pour c")
+   lire (c)
+
+   si a <> 0 alors 
+    
+  delta ← b^2 - 4*a*c
+   
+   si delta > 0 alors
+   x1 ← (-b - Racine(delta))/(2*a)
+   x2← (-b + Racine(delta))/(2*a)
+Ecrire("x1 = ", x1)
+Ecrire("x2 = ", x2)
+   sinonsi  delta = 0 
+  afficher("Une solution double")
+ x = -b / (2*a)
+     sinon 
+   afficher ("aucune solution")
+ Finsi
+fin
+
+Exercice :7
+Algorithme  Le singne de un nombre
+
+Variable 
+n : reel
+
+début
+Ecrire ("Ajoute un nombre : n ")
+lire (n)
+
+si a > 0
+afficher ("Positif")
+
+sinonsi a < 0
+afficher ("negatif")
+
+sinonsi 
+afficher ("Null")
+
+finsi
+
+fin 
+
